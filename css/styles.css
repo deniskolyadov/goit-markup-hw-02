@@ -18,8 +18,19 @@ main {
     letter-spacing: 0.02em;
 }
 
-.logo {
+.logo-header {
     text-decoration: none;
+    color: #000000;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.logo-footer {
+    text-decoration: none;
+    color: #ffffff;
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
@@ -33,6 +44,7 @@ main {
 
 .menu{
     list-style-type: none;
+    cursor: pointer;
 }
 
 .menu-item {
@@ -56,7 +68,9 @@ main {
 
 
 /* Банер */
-.banner {}
+.banner {
+    background-color: #2F303A;
+}
 
 .banner h1 {
     color: #ffffff;
@@ -70,6 +84,7 @@ main {
 }
 
 .banner button {
+    cursor: pointer;
     color: #ffffff;
     background-color: var(--brand-color);
     font-weight: 700;
@@ -79,9 +94,13 @@ main {
 }
 
 /* Особенности */
-.benefits {}
+.benefits {
+    
+}
+
 
 .benefits h3 {
+    color: var(--main-text-color);
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -90,6 +109,7 @@ main {
 }
 
 .benefits-list {
+    list-style-type: none;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -99,6 +119,7 @@ main {
 .development {}
 
 .development h2 {
+    color: var(--main-text-color);
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -106,7 +127,9 @@ main {
     text-align: center;
 }
 
-.dev-list {}
+.dev-list {
+    list-style-type: none;
+}
 
 /* Команда */
 .our-team {
@@ -114,6 +137,7 @@ main {
 }
 
 .our-team h2 {
+    color: var(--main-text-color);
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -133,19 +157,56 @@ main {
     line-height: 1.19;
 }
 
-.team-list {}
-
-/* Клиенты */
-.clients {}
-
-.clients h2 {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
+.team-list {
+    list-style-type: none;
 }
 
-.clients-list {}
+/*ПОРТФОЛИО*/
+
+.portfolio-menu{
+    list-style-type: none;
+}
+
+
+.portfolio-all {
+    cursor: pointer;
+    color: #ffffff;
+    background-color: var(--brand-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+}
+
+.portfolio-button {
+    cursor: pointer;
+    color: var(--main-text-color)
+    background-color: #f5f4fa;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+}
+
+.works {
+    list-style-type: none;
+}
+
+.works h2 {
+    color: var(--main-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.works p {
+    color: var(--second-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 0.87;
+    letter-spacing: 0.03em;
+}
 
 /* Подвал */
 .footer {
@@ -157,12 +218,13 @@ main {
 
 .footer .adress {
     color: #ffffff;
+    text-decoration: none;
 }
 
 .footer .email {
-    color: rgba(256, 256, 256, 0.6);
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .footer .phone {
-    color: rgba(256, 256, 256, 0.6);
+    color: rgba(255, 255, 255, 0.6);
 }

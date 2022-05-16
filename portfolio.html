@@ -15,32 +15,35 @@
 
 <body>
     <!--header-->
-    <header>
+    <header class="header">
         <nav>
-            <a href="./" class="logo"><span class="web-logo">Web</span>Studio</a>
-            <ul>
-                <li><a href="">Студия</a></li>
-                <li><a href="./portfolio.html">Портфолио</a></li>
-                <li><a href="">Контакты</a></li>
+            <a class="logo-header" href="./"><span class="web-logo">Web</span>Studio</a>
+            <ul class="menu">
+                <li><a class="menu-item" href="">Студия</a></li>
+                <li><a class="menu-item" href="./portfolio.html">Портфолио</a></li>
+                <li><a class="menu-item" href="">Контакты</a></li>
             </ul>
         </nav>
-
-        <ul>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+    
+        <ul class="contacts">
+            <li><a class="menu-item" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a class="menu-item" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
     </header>
+
     <main>
-        <section>
+
+        <!--portfolio-->
+        <section class="portfolio">
             <h1>Наши работы</h1>
-            <ul>
-                <li><button type="button" value="Все">Все</button></li>
-                <li><button type="button" value="Веб-сайты">Веб-сайты</button></li>
-                <li><button type="button" value="Приложения">Приложения</button></li>
-                <li><button type="button" value="Дизайн">Дизайн</button></li>
-                <li><button type="button" value="Маркетинг">Маркетинг</button></li>
+            <ul class="portfolio-menu">
+                <li><button class="portfolio-all" type="button" value="Все">Все</button></li>
+                <li><button class="portfolio-button" type="button" value="Веб-сайты">Веб-сайты</button></li>
+                <li><button class="portfolio-button" type="button" value="Приложения">Приложения</button></li>
+                <li><button class="portfolio-button" type="button" value="Дизайн">Дизайн</button></li>
+                <li><button class="portfolio-button" type="button" value="Маркетинг">Маркетинг</button></li>
             </ul>
-            <ul>
+            <ul class="works">
                 <li>
                     <img src="./images/portfolio/technocrack.jpg" width="370" height="294" alt="Веб сайт Технокряк">
                     <h2>Технокряк</h2>
@@ -91,13 +94,13 @@
     </main>
 
     <!--footer-->
-    <footer>
+    <footer class="footer">
         <div>
-            <a href="./" class="logo"><span class="web-logo">Web</span>Studio</a>
-            <address>
-                г. Киев, пр-т Леси Украинки, 26       
-                <a href="mailto:info@example.com">info@example.com</a>
-                <a href="tel:+380991111111">+38 099 111 11 11</a>
+            <a class="logo-footer" href="./"><span class="web-logo">Web</span>Studio</a>
+            <address class="adress">
+                г. Киев, пр-т Леси Украинки, 26
+                <a class="email" href="mailto:info@example.com">info@example.com</a>
+                <a class="phone" href="tel:+380991111111">+38 099 111 11 11</a>
             </address>
         </div>
     </footer>
