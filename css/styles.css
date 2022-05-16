@@ -233,8 +233,16 @@ main {
 
 .footer .email {
     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
 }
 
+.footer .email:hover {
+    color: var(--brand-color);
+}
 .footer .phone {
     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+.footer .phone:hover {
+    color: var(--brand-color);
 }
