@@ -56,20 +56,21 @@ main {
     line-height: 1.14;
 }
 
-.menu-item:hover {
-    color: var(--brand-color);
-}
-
 .current {
     color: var(--brand-color);
 }
 
 .contacts {
     list-style-type: none;
+}
+
+.contacts .menu-item{
     color: var(--second-text-color);
 }
 
-
+.menu-item:hover {
+    color: var(--brand-color);
+}
 
 /* Банер */
 .banner {
@@ -99,6 +100,10 @@ main {
 
 .hero-button {
     font-family: inherit;
+}
+
+.hero-button:hover {
+    background-color: #188CE8;
 }
 
 /* Особенности */
@@ -148,7 +153,7 @@ main {
 }
 
 .our-team .name {
-    color: #212121;
+    color: var(--main-text-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -170,19 +175,7 @@ main {
     list-style-type: none;
 }
 
-
-.portfolio-all {
-    cursor: pointer;
-    color: #ffffff;
-    background-color: var(--brand-color);
-    font-family: inherit;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
-    letter-spacing: 0.06em;
-}
-
-.portfolio-button {
+.portfolio-menu button {
     cursor: pointer;
     color: var(--main-text-color);
     background-color: #f5f4fa;
@@ -193,6 +186,10 @@ main {
     letter-spacing: 0.06em;
 }
 
+.portfolio-menu button:hover{
+    color: #ffffff;
+    background-color: var(--brand-color);
+}
 .works {
     list-style-type: none;
 }
