@@ -102,7 +102,8 @@ main {
     font-family: inherit;
 }
 
-.hero-button:hover {
+.hero-button:hover,
+.hero-button:focus {
     background-color: #188CE8;
 }
 
@@ -186,7 +187,8 @@ main {
     letter-spacing: 0.06em;
 }
 
-.portfolio-menu button:hover{
+.portfolio-menu button:hover,
+.portfolio-menu button:focus {
     color: #ffffff;
     background-color: var(--brand-color);
 }
